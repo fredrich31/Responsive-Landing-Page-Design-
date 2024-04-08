@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Us Page Design</title>
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+          </head> 
+        <body>
 
+      <div class="wrapper">
+        <nav>
+          <div class="logo">
+            <a href="#">Real State</a>
+          </div>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="toggle" onclick="toggleMenu();"><i class="fas fa-bars"></i></div>
+        </nav>
+        <div class="content">
+          <div class="article">
+            <h1>Your Dream House</h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            <div class="button">
+              <a href="#">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        
+      <script type="text/javascript">
+        
+function toggleMenu(){
+    var menuToggle = document.querySelector('.toggle');
+    var ul = document.querySelector('ul');
+    ul.classList.toggle('active');
+}
+
+  </script>
+
+    <script src="js/script.js"></script> 
+    
+  </body>
+</html>
